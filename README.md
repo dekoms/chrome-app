@@ -1,7 +1,7 @@
-# JavaScript
+# chrome-app
 바닐라 JS
 
-### chrome-app
+### 구현 기능
 * Login :
   * HTML `<form> <input type="text"/> <input type="submit"/> <form/>`
   * event.preventDefault(); 새로고침 방지
