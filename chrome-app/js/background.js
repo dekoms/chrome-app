@@ -6,4 +6,7 @@ const bgImage = document.createElement("img");
 
 bgImage.src = `img/${chosenImage}`;
 
-document.body.insertBefore(bgImage, document.body.querySelector("div#quote"));
+document.body.insertBefore(
+  bgImage,
+  document.body.querySelector('script[src="js/greetings.js"]')
+);
